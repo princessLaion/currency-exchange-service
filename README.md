@@ -2,10 +2,10 @@
 
 ## URL
 Currency Exchange Service
-http://localhost:8000/currency-exchange/from/USD/to/INR
+http://localhost:8000/currency-exchange/from/USD/to/PHP
 
 Currency Conversion Service
-http://localhost:8000/currency-exchange/from/USD/to/INR/quantity/10
+http://localhost:8000/currency-exchange/from/USD/to/PHP/quantity/10
 
 ### Response Structure
 {
@@ -18,4 +18,8 @@ http://localhost:8000/currency-exchange/from/USD/to/INR/quantity/10
 
 ## DB
 http://localhost:8000/h2-console
+
+## Eureka Repo
+https://github.com/princessLaion/naming-server
+http://localhost:8761
 
