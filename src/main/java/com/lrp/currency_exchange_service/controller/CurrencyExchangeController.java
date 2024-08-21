@@ -22,15 +22,16 @@ public class CurrencyExchangeController {
             @PathVariable String fromCurrency,
             @PathVariable String toCurrency) {
 
-        CurrencyExchange currencyExchange = currencyExchangeRepository.findByFromCurrencyAndToCurrency(
-                fromCurrency,
-                toCurrency
+        CurrencyExchange currencyExchange = currencyExchangeRepository
+                .findByFromCurrencyAndToCurrency(
+                    fromCurrency,
+                    toCurrency
         );
 
         if (currencyExchange == null) {
             throw new RuntimeException(String.format("Unable to find records from %s, to %s", fromCurrency, toCurrency));
         }
-
+        currencyExchange.setEnvironment(environment.getProperty("local.server.port"));
         return currencyExchange;
 
         //Simple
