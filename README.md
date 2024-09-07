@@ -16,6 +16,9 @@ http://localhost:8000/currency-exchange/from/USD/to/PHP/quantity/10
     "environment":"8000 instance-id"
 }
 
+## Swagger / API documentation
+http://localhost:8000/swagger-ui/index.html
+
 ## DB
 http://localhost:8000/h2-console
 
