@@ -37,7 +37,8 @@ Download the docker image zipkin
 Distributed Tracing Client
 http://localhost:9411/zipkin/
 
-
+## Others
+[Additional Info for Project dependencies](https://github.com/princessLaion/api-gateway/blob/main/README.md)
 
 
 
